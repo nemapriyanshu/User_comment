@@ -1,0 +1,62 @@
+ <div class="card m-4" style="width: 18rem;">
+
+            <img class="card-img-top" src="<?=$arr['image']?>" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title"><?=$arr['title']?></h5>
+                <p class="card-text">
+                    <?=$arr['description']?>
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+
+
+
+<!------------------------------------------ DONE------------------------- -->
+
+        <div class="mt-10  row text-center">
+        <!-- 1st -->
+
+        <div class=" col-6 mb-5">
+
+            <div class="container2    p-1">
+                <img src="IMAGE/d5.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="h1 text-center mt-2 " style="color:#C6FC8D"><?= $arr['title'] ?></div>
+                    <div class="text">
+                        <p class="contain2">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, ipsa? Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde nisi rem sapiente corporis tempora quasi, amet soluta molestiae ab quos.
+                        </p>
+                        <a href="#" class="btn btn-danger">Delete</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    
+
+
+
+
+
+
+    <!-- -----------------------------UPPER PART OF DASHBOSGDF----------- -->
+
+
+
+
+    <div class="text-center fixed-top row">
+        <div class="col-1">
+            <a href="logout.php" class="btn btn-primary">logout</a>
+        </div>
+        <div class="text-success col-9 ml-5  h1">
+            <i class="bi bi-person-check-fill"></i>
+            <span class=""><?= $email ?></span>
+        </div>
+        <button type="button" class="btn btn-dark col-2" data-toggle="modal" data-target="#exampleModal">
+            <span class="h4">ADD POST</span>
+        </button>
+        <!-- <a href="add.php" class="  ">Add Post</a> -->
+    </div>
